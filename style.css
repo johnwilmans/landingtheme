@@ -1,0 +1,60 @@
+/*
+Theme Name: landingtheme
+Theme URI: http://www.yellow-rocket.com/
+Author: John Wilmans
+Author URI: http://www.yellow-rocket.com/
+Description: A custom Wordpress theme using Bootstrap
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: landingtheme
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+
+*/
+html, body, .container, .row{
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, label{
+  font-family: 'Open Sans', sans-serif;
+    color: #89764E;
+    font-weight: 200;
+    font-kerning: auto;
+}
+h1 {font-size: 30px !important;
+    text-align: center;}
+h4{
+    font-size:20px;
+    line-height: 30px;
+}
+.logo{
+    width: 20%;
+    margin-left: 40%;
+    
+}
+.preorder{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#mc_embed_signup{background:#000000; 
+    font:14px 'Open Sans',sans-serif;
+    font-weight: 100;
+    width:100%;
+    }
+#mc_embed_signup .button {
+    background-color: #89764E;
+    color: black;
+}
+
+hr {
+    width: 70%;
+    border-color: #89764E; 
+    
+}
